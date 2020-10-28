@@ -1,0 +1,31 @@
+
+li{
+
+	list-style: none;
+}
+
+.cajaItem{
+    border-style: solid;
+	border-color:#0000FF;
+	margin: 5px;
+	align-items: center;
+}
+
+img{
+
+	width: 100px;
+	height: 100px;}
+
+#contenedor{
+float: left;
+	width: 60%;}
+
+#lateral{
+ border-style: solid;
+border-color:#00FF00;
+float: left;
+
+margin:10px;
+padding: 20px;
+
+}

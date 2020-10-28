@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ANIMALES MEXICANOS</title>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="styles/estilo.css">
+	<script type="text/javascript" src="scripts/codigo.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+	<h1>Animales Méxicanos en riesgo </h1>
+	<div id="contenedorP">
+		<div id="contenedor">
+			<center>
+				<ul id="lista">
+		
+				</ul>
+
+  			</center>
+		</div>
+		<div id="lateral">
+	
+			<br>
+	 		Nombre: <input type=text id="nombreA" placeholder="ingresa el nombre" />
+	 		<br><br>
+	 		Riesgo: <select id="riesgo">
+	 		<option>Amenazado</option>
+	 		<option>En peligro de extinción</option>
+	 		<option>Éxito de conservación</option>
+	    	</select><br><br>
+	 		Información: 
+	  		<textarea id="datos" placeholder="datos generales" ></textarea><br><br>
+	  		Imagen:
+     
+	   		<input type="file" id="imagefile" accept="image/jpeg, image/png"><br><br>
+	   		<button onclick="subeImagen()">Agregar</button>
+     
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		lee_json1();
+	</script>
+</body>
+</html>
